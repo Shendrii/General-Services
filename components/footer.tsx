@@ -41,7 +41,7 @@ export default function Footer({ onInquireClick }: FooterProps) {
                 <Phone size={20} className="flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform duration-300" />
                 <span className="group-hover:translate-x-1 transition-transform duration-300">0000</span>
               </a>
-              <a href="mailto:test" className="flex items-start gap-3 text-muted-foreground hover:text-secondary transition-colors duration-300 group">
+              <a href="mailto:test@gmail.com" className="flex items-start gap-3 text-muted-foreground hover:text-secondary transition-colors duration-300 group">
                 <Mail size={20} className="flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform duration-300" />
                 <span className="group-hover:translate-x-1 transition-transform duration-300">test</span>
               </a>
