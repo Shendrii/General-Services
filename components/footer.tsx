@@ -37,17 +37,17 @@ export default function Footer({ onInquireClick }: FooterProps) {
           <div className="animate-fade-in-up" style={{ animationDelay: '100ms' }}>
             <h4 className="text-lg font-bold text-primary mb-6 transition-colors duration-300">Contact</h4>
             <div className="space-y-4">
-              <a href="tel:+639123456789" className="flex items-start gap-3 text-muted-foreground hover:text-secondary transition-colors duration-300 group">
+              <a href="tel:0000" className="flex items-start gap-3 text-muted-foreground hover:text-secondary transition-colors duration-300 group">
                 <Phone size={20} className="flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform duration-300" />
-                <span className="group-hover:translate-x-1 transition-transform duration-300">+63 (912) 345-6789</span>
+                <span className="group-hover:translate-x-1 transition-transform duration-300">0000</span>
               </a>
-              <a href="mailto:hello@accountpartners.com" className="flex items-start gap-3 text-muted-foreground hover:text-secondary transition-colors duration-300 group">
+              <a href="mailto:test" className="flex items-start gap-3 text-muted-foreground hover:text-secondary transition-colors duration-300 group">
                 <Mail size={20} className="flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform duration-300" />
-                <span className="group-hover:translate-x-1 transition-transform duration-300">hello@accountpartners.com</span>
+                <span className="group-hover:translate-x-1 transition-transform duration-300">test</span>
               </a>
               <a href="#" className="flex items-start gap-3 text-muted-foreground hover:text-secondary transition-colors duration-300 group">
                 <MapPin size={20} className="flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform duration-300" />
-                <span className="group-hover:translate-x-1 transition-transform duration-300">123 Business Ave, Metro Manila, Philippines</span>
+                <span className="group-hover:translate-x-1 transition-transform duration-300">Sto.Tomas Batangas</span>
               </a>
             </div>
           </div>
