@@ -11,6 +11,8 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-8">
           <a href="#services" className="text-foreground hover:text-primary transition">Services</a>
           <a href="#contact" className="text-foreground hover:text-primary transition">Contact</a>
+          <a href="/admin" className="text-foreground hover:text-primary transition">Admin</a>
+          <a href="/client" className="text-foreground hover:text-primary transition">Client</a>
         </nav>
       </div>
     </header>
